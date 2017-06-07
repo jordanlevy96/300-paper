@@ -1,0 +1,65 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{pai-fcc}
+\BIBentryALTinterwordspacing
+ [Online]. Available: \url{https://www.fcc.gov/about/leadership/ajit-pai}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent The FCC bio page for Ajit Pai, the FCC chairman.
+  \end{quotation}
+
+\bibitem{pai-is-chairman}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{https://www.forbes.com/sites/haroldfurchtgottroth/2017/01/22/president-trump-designates-ajit-pai-as-chairman-of-fcc/#53ac58af1577}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Forbes article detailing Pai's confirmation as FCC
+  chairman. \end{quotation}
+
+\bibitem{pai-attacks}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{https://www.nytimes.com/2017/02/05/technology/trumps-fcc-quickly-targets-net-neutrality-rules.html}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent New York Times article outlining some of Pai's
+  actions since becoming FCC Chairman. \end{quotation}
+
+\bibitem{fortune-regulation}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{http://fortune.com/2017/02/28/donald-trump-fcc-chair-ajit-pai/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Fortune describes some of Chairman Pai's policies
+  and their implications. \end{quotation}
+
+\bibitem{SE-code}
+``Software engineering code of ethics.''
+
+
+\bibitem{cnn-fcc}
+\BIBentryALTinterwordspacing
+D.~Goldman and J.~Pagliery. (2015, June) Net neutrality is here. what it means
+  for you. [Online]. Available:
+  \url{http://money.cnn.com/2015/06/12/technology/net-neutrality/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent CNN article summarizing changes to legislation, key
+  players, and affects on Internet users. \end{quotation}
+
+\end{thebibliography}

@@ -1,0 +1,362 @@
+% One Column Format
+\documentclass[12pt]{article}
+
+% All Packages and related utilities
+\input{util.tex}
+
+%%% PAGE DIMENSIONS
+\geometry{letterpaper}
+
+
+\begin{document}
+
+\title{\vfill Net Neutrality Policy as an Ethical Issue} %\vfill gives us the black space at the top of the page
+\author{
+By Jordan Levy \vspace{10pt} \\
+CSC 300: Professional Responsibilities  \vspace{10pt} \\
+Dr. Clark Turner \vspace{10pt} \\
+}
+\date{\today}
+
+\maketitle
+
+\vfill  %in combination with \newpage this forces the abstract to the bottom of the page
+\begin{abstract} %100 word max
+On June 13, 2015, regulations came into place that solidified US policy on Net Neutrality, where the stated goal was to keep the Internet open and fair to all users.\cite{cnn-fcc} Many question the government's role in this regulation; whether it is helpful or a hinderance is unclear. Questions about the future of the Internet and the ethical obligations of its regulators are pertinent.
+
+Since assuming his position as FCC Chairman, Ajit Pai has proposed major changes to the classification and regulation of the Internet.\cite{pbs-pai-makes-case} Ethical investigations make it clear that Chairman Pai is acting unethically by attempting this change.
+
+\end{abstract}
+
+\thispagestyle{empty} %remove page number from title page
+\newpage
+
+\newpage
+
+\pagenumbering{gobble}
+\tableofcontents
+
+
+%end the 1 column format
+
+\newpage
+% start 2 column format
+\begin{multicols}{2}
+%Start numbering first page of content as page 1
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%
+%%% Known Facts  %%%
+% 400 word max %
+%%%%%%%%%%%%%%%%%%%%
+\section{Facts}
+The Federal Communications Commission (FCC) is the US governmental organization that oversees the regulation of public communication.\cite{cnn-fcc} Ajit Pai, serving as a commissioner for the FCC since 2012, was appointed Chairman by President Trump in 2017\cite{fcc-pai-page} The Internet, under the jurisdiction of the FCC, was classified as a Title II utility in 2015; Pai specifically called this ruling a ``mistake," and seeks to reclassify it as an information service.\cite{cnn-fcc, fortune-regulation} In May of 2017, Pai introduced legislation to facilitate this change and has received criticism and dissent from sources such as the Electronic Frontier Foundation (EFF), the Institute of Electrical and Electronics Engineers (IEEE), economists, comedians, the American Civil Liberties Union (ACLU), and more for heavily favoring businesses over the American People.\cite{eff-pro-net, ieee-article, oliver, aclu}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Research Question %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research Question}
+Is Ajit Pai's attempt to reclassify the Internet as an information service ethical?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Social Implications                   %%%
+%%%   300 words max               %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Social Implications}
+According to Google -- one of the largest and most data-heavy sites on the Internet -- approximately 75\% of Americans use the Internet.\cite{google-stats} Change to regulatory policy could potentially affect every one of these users. Critics claim that this change of policy could increase Internet usage costs and bring in extra revenue for ISPs.\cite{eff-pro-net, ieee-article, aclu} In a best-case scenario, businesses would face increased competition and consumers would have more and better options for their Internet usage.{npr-pai-makes-case, pbs-pai-makes-case} Either way, millions of people would feel these effects.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Extant Arguments from External Sources %%%
+%%% 300 words max; 3-5 arguments of ~60 words each
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Extant arguments}
+
+\subsection{Arguments For}
+\subsubsection{Ajit Pai: Violations of Net Neutrality should be taken care of 'After the Fact'}
+Ajit Pai, the current FCC Chairman, argues that the way the US government currently regulates the Internet is ineffective. He believes that ``light-touch" regulation -- where regulatory agencies take targeted action if necessary on an ``organically" growing market -- would be superior to the current practice of Title II regulation, where the Internet is treated as a public utility and regulated by preemptively prohibiting certain actions.\cite{npr-pai-makes-case, pbs-pai-makes-case}
+\subsubsection{Josh Steimle: Government cannot be trusted to regulate the Internet}
+Josh Steimle, a contributor to Forbes, argues that continuing the US government to handle regulation of the Internet will result in more monopolies. Citing the US government as ``the largest, most powerful monopoly in the world," Steimle points out areas where government where he believes spending has been inefficient or downright ineffective -- such as healthcare, infrastructure, and public education -- and argues that, in the interest of competition, privacy, and freedom, things are better managed without government.\cite{forbes-libertarian}
+
+\subsection{Arguments Against}
+\subsubsection{Corynne McSherry: Reclassification of the Internet would unfairly aide corporations and harm consumers}
+Corynne McSherry, a contributor to the EFF, argues that reclassification of the Internet would be bad for public users. She asserts that the basis for this change in legislation is founded on ``an aggressive misinformation campaign by major telecom companies" and that the change would ultimately allow Internet Service Providers (hereafter ISPs) to abuse monopolies in certain regions.\cite{eff-pro-net}
+
+\subsection{Arguments Summary}
+Though most agree that Net Neutrality should exist, how it should be enforced is contentious. The many arguments on both sides -- more or less regulation -- all have merit to a certain extent. A Libertarian view that government cannot be trusted to maintain the public good is legitimate, especially considering that the current legislation used in regulation was written in the 1930s, long before the Internet was invented. \cite{pbs-pai-makes-case, forbes-libertarian} Letting companies grow organically and cutting them back when they make violations could allow greater levels of growth while keeping consumers safe -- or it could give powerful corporations free reign to take advantage of consumers while the government sits back and argues about whether to intervene or not. \cite{npr-pai-makes-case, eff-pro-net} There are many ways the regulations could exist, each with its own set of pros and cons; each set of regulations (or lack thereof) is intended to create an Open Internet where users can freely browse the web and companies can have healthy competition with each other.
+
+\section{Analysis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% How the SE Code Applies to this Problem  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Why the SE Code Applies}
+Any number of ethical systems could be applied to this case. Here, it will be shown that anyone responsible for creating regulatory policy regarding the Internet and Net Neutrality falls under the jurisdiction the the Software Engineering (SE) Code of Ethics.
+\subsubsection{Where the SE Code Applies}
+One passage of the SE Code's preamble is as follows:
+\begin{quote}
+``To ensure, as much as possible, that their efforts will be used for good, software engineers must commit themselves to making software engineering a beneficial and respected profession. In accordance with that commitment, software engineers shall adhere to the following Code of Ethics and Professional Practice."\cite{SE-code}
+\end{quote}
+Thus, the SE Code of Ethics applies to any professional Software Engineer.
+\subsubsubsection{What is a Software Engineer}
+According to the Software Engineering Code of Ethics, \begin{quote}``Software engineers are those who \underline{contribute}, by \underline{direct participation} or by teaching, to the analysis, specification, design, development, certification, \underline{maintenance}, and testing of \underline{software systems}."\cite{SE-code}\end{quote}
+
+Underlined are the relevant terms.
+
+`Contribute,' defined by the Merriam-Webster dictionary, means ``to play a significant part in bringing about an end or result."\cite{webster}
+
+`Direct' is ``characterized by close logical, causal, or consequential relationship," while `participation' is ``the action of taking part in something."\cite{webster, oxford} Together, `direct participation' could then be considered the act of taking part in something with a consequential relationship to the result.
+
+`Maintenance,' also defined by Merriam-Webster, is ``the upkeep of property or equipment."\cite{webster}
+
+\subsubsubsection{What is a Software System}
+A Software System is a complex concept. Breaking down the term, `software' is ``the programs and other operating information used by a computer," where a `program' is `a sequence of coded instructions that can be inserted into a mechanism (such as a computer)"\cite{oxford, webster} A `system' is ``a regularly interacting or interdependent group of items forming a unified whole."\cite{webster}
+
+Thus, a `Software System' can be considered a regularly interacting or interdependent group of programs.
+
+\subsubsection{How the SE Code Applies}
+\subsubsubsection{The Internet is a Software System}
+Defined by Merriam-Webster, the Internet is ``an electronic communications network that connects computer networks and organizational computer facilities around the world."\cite{webster} Since a computer network is system of programs that interacts through computers, it can be considered software. Therefore, since computer networks connect and interact across the world, the Internet -- this series of networks -- can be considered a Software System.
+
+\subsubsubsection{Ajit Pai is a Software Engineer}
+With a direct consequential relationship with and significant part in bringing about the upkeep of the Internet, Chairman Pai can herein be considered a Software Engineer and is thus responsible for upholding the SE Code.\cite{SE-code}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Analytic principles %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{SE Code 1.02}
+\subsubsection{Code Tenet}
+\tenetbox{
+	``\underline{Moderate} the \underline{interests} of \underline{the software engineer}, \underline{the employer}, \underline{the client}, and \underline{the users} with the \underline{public good}."\cite{SE-code} 
+}
+
+\subsubsection{Definitions}
+`The software engineer' in this tenet is Chairman Pai himself, as previously explained.
+
+`Moderate' is defined as ``to preside over or act as chairman of."\cite{webster} Another definition states that to moderate is to ``review in relation to an agreed standard so as to ensure consistency of marking."\cite{oxford} In this context, it makes sense to use both definitions, since Pai is not simply lessening parties' interests and since there is no agreed standard for which to ensure consistency. Therefore, moderate herein means for Pai to preside over and balance the interests of the various parties, where balancing is the act of ensuring consistency among the parties.
+
+`Interests,' in this case, refers to ``the advantage or benefit of a person or group."\cite{oxford}  Advantage can be considered favor (e.g. more accessibility) in the usage of the Internet, while benefit can here mean financial advantage or greater accessibility. These both can be summed up as `agreeable.' Thus, the interests of the aforementioned parties refers to usage of the Internet in agreeable conditions.
+
+`The employer,' referenced would, in this case, could be considered the FCC as an organization or even the entire US government.
+
+`The client,' refers most directly to ISPs who must adhere to FCC regulations, while `the users' are those who access the Internet through ISPs.
+
+`Public good' is a contentious term, especially since good, ``of a favorable character or tendency," is a subjective state of being.\cite{webster} Public can be defined as ``of, relating to, or affecting all the people or the whole area of a nation or state."\cite{webster} Since the nation in question is the USA (the FCC being a US organization), the public in reference is the American people. Therefore public good, in this context, is Internet policy that is favorable to the American people -- especially those that use the Internet.
+
+\newpage %it looked really bad without this
+
+\subsubsection{Domain Specific 1.02}
+\tenetbox{
+Balance the advantage or benefit of himself, the US government, American businesses, and public individuals who access the Internet with policy that is favorable to the American people.}
+
+This new rule raises a couple of important questions. Firstly, who benefits from Net Neutrality policy changes? Secondly, has Chairman Pai balanced these benefits in a way that is favorable to the American people?
+
+\subsubsection{Who Benefits from Net Neutrality Policy Changes?}
+There are a number of parties who could potentially benefit from reclassification of the Internet: Chairman Pai, the US government, businesses, ISPs, and users.
+
+\subsubsubsection{Chairman Pai}
+Reclassification of the Internet does not directly affect any individuals. The most direct way the policy would change anything at all is in how court cases regarding Net Neutrality are handled.\cite{eff-pro-net} Though at the helm of making this change, Chairman Pai would only be affected by this in whatever capacity he would as a member of the US Government, potential participant in American business, or as a public individual accessing the Internet.
+
+\subsubsubsection{The US Government}
+Government benefit from regulatory policy does not make much sense. The government does not own or directly control any ISPs, so would not be affected by this policy and therefore cannot benefit from it.
+
+\subsubsubsection{Internet Service Providers}
+ISPs are most affected by this potential change of policy. Reclassifying the Internet as an information service would allow ISPs to regulate how they distribute service (e.g. implementing `fast lanes' or extra charges for streaming services) and the FCC would lose any court case intended to stop them.\cite{eff-pro-net} Considering ISPs' notoriously low costumer service ratings\footnote{Comcast was even satirized by the hit TV sitcom South Park for being awful to their costumers.}, it is not a stretch to assume greedy or costumer-unfriendly activity from ISPs.\cite{satisfaction} This reclassification would enable a restructuring of the way ISPs function, allowing them greater profits. In short, ISPs could benefit greatly.
+
+\subsubsubsection{American Businesses}
+Some major tech companies (e.g. Google, Amazon, Netflix) have come out against a change in policy, while major ISPs (e.g. Verizon, Comcast) are in favor of the change.\cite{ieee-article} There is little to no precedent on policy like this, so economists cannot tell how this change would be felt; the theory is that ISPs would charge more for bandwidth-heavy activities such as streaming and would be able to reinvest the money to improve their services, but this would also take money away from the content providers, slowing down their growth.\cite{ieee-article} Chairman Pai argues that the increased competition would improve the services that the businesses provide.\cite{pbs-pai-makes-case} Thus, it is unclear whether businesses stand to benefit from this change of policy.
+
+\subsubsubsection{Users}
+Though Chairman Pai believes users will indirectly benefit from this policy change, this would be through increased business activity and innovation -- creating more options for users as consumers.\cite{pbs-pai-makes-case} Thus, any user benefit would be a result of benefits to others.\footnote{In fact, users could be at a detriment from a change of policy, as their Internet usage could potentially become more restricted or expensive.}
+
+\subsubsubsection{Summary}
+\begin{center}
+%\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Party with Potential Benefit} & \textbf{Status of Potential Benefit} \\ \hline
+Chairman Pai                          & No Potential Benefit                 \\ \hline
+The US Government                     & No Potential Benefit                 \\ \hline
+Internet Service Providers            & Strong Potential Benefit             \\ \hline
+American Businesses                   & Ambiguous Potential Benefit          \\ \hline
+Users                                 & Ambiguous Potential Benefit          \\ \hline
+\end{tabular}
+}
+\end{center}
+
+\subsubsection{Has Chairman Pai Moderated These Benefits in Favor of the American People?}
+The American People is considered `average' citizens, individuals who use the Internet for both personal and professional services. Since the only party that is guaranteed to benefit from policy changes regarding Net Neutrality is the ISPs, `the American People' is not poised to receive favor herein. In fact, the American People is in danger of being taken advantage of by the increasingly powerful ISPs they rely on for access to the Internet.\cite{eff-pro-net}
+
+\subsubsection{Conclusion}
+Thus, Chairman Pai would be breaking this SE code tenet by allowing the ISPs to benefit at a loss to average Internet users.
+
+
+\subsection{SE Code 1.05}
+  \subsubsection{Code Tenet}
+  \tenetbox{``Cooperate in efforts to address matters of \underline{grave} \underline{public concern} caused by \underline{software}, its \underline{installation}, \underline{maintenance}, \underline{support}, or \underline{documentation}."\cite{SE-code}}
+  
+  \subsubsection{Definitions}
+  `Grave,' a highly subjective term, can be defined as ``meriting serious consideration."\cite{webster} With millions of Internet users, any change to the regulations on the Internet merit serious consideration because they will inevitably affect those millions in a huge variety of ways.
+  
+  `Public concern' is an abstract concept. `Public' was previously defined to mean the American People; this definition stands here. `Concern' is ``a matter of interest or importance to someone."\cite{oxford} Thus, `public concern' herein means a matter of interest or importance to the American People.
+  
+  The `software' in question, as previously enumerated, is the Internet as a whole.
+  
+  The terms installation, maintenance, support, and documentation are all the different aspects of the relevant software system (i.e., the Internet) that this code tenet seeks to manage ethically. As such -- and with the use of the word `or' -- only of these is necessarily relevant.
+  
+   `Installation,' defined by Merriam-Webster, is ``the act of...set[ting] up for use or service."\cite{webster} As a government official, Chairman Pai was never involved in the creation of the Internet. In fact, graduating university in 1994, Pai is too young to have worked on setting up the Internet in any meaningful way.\cite{fcc-pai-page}
+   
+   `Maintenance' is ``the upkeep of property or equipment."\cite{webster} Since Chairman Pai is a regulator, he does not have a part in the technical upkeep of the Internet.
+   
+   `Support' is ``to provide a basis for the existence or subsistence of."\cite{webster} Though he has not contributed to the Internet's \textit{existence}, as a lawmaker and Chairman of the organization that imposes regulations on the service, Pai provides the basis for the \textit{subsistence} of the Internet. This can be summarized as the regulations themselves.
+   
+   `Documentation' is ``the provision of documents in substantiation."\cite{webster} Again, since Chairman Pai was not involved in the creation of the Internet, he has not had a hand in the documentation of it.
+  
+  \subsubsection{Domain Specific 1.05}
+  \tenetbox{Cooperate in efforts to address matters meriting serious consideration of interest or importance to the American People caused by the Internet or its regulation.}
+  
+  The question raised by this is merely whether or not Chairman Pai has followed the rule and seriously addressed the matter.
+  
+  \subsubsection{Has Chairman Pai Cooperated in Efforts to Address Matters of Serious Interest to the American People Caused by the Internet or its Regulation?}
+  On May 7, 2017, comedian John Oliver ran a segment on his HBO show \textit{Last Week Tonight} that discussed Net Neutrality, the FCC, and Chairman Pai; in this segment, Oliver encouraged his millions of viewers to comment on the FCC site, which then reportedly crashed.\cite{oliver} Almost this exact situation occurred three years ago when Oliver ran a similar segment in response to another proposed change to Net Neutrality laws.\cite{oliver2} There are two notable things about the occurrence of these crashes.
+  
+  Firstly, the FCC allowed the crash to occur a second time. This means they did not update their servers to handle the additional traffic that a controversial issue like this generates. Though speculative, this may be because they did not want to receive the criticism.
+  
+  Secondly, the FCC actively made it \textit{more difficult} to make comments on their site. They changed the system so that it had \textbf{six} steps to make a comment; Oliver attempted to streamline this system through his own site, making it easier for his viewers to make comments.\cite{oliver2}
+  
+  The FCC has stated that the second crash was the result of a denial-of-service attack and not because of increased traffic.\cite{oliver, oliver2} At this point, that claim can neither be confirmed nor denied. However, considering the crash occurred shortly after Oliver's segment aired and the fact that there is a precedent for this exact situation, it is likely that the segment at least had an effect on the server's crash.
+  
+  \subsubsection{Conclusion}
+  The difficulty in leaving a critical comment on the FCC's site is direct proof that the FCC was \textit{not} cooperating in efforts to address this serious matter. Even the proposal in the first place, after similar pushback from the American people from a previous proposal, is evidence that Chairman Pai and his administration are not cooperating. This leads to the conclusion that he is breaking this code tenet.
+  
+\subsection{SE Code 3.02}
+\subsubsection{Code Tenet}
+  \tenetbox{
+  ``\underline{Strive} to fully understand the \underline{specifications} for \underline{software on which they work}."\cite{SE-code}}
+  
+  \subsubsection{Definitions}
+  `Strive' can be defined to mean ``to devote serious effort or energy."\cite{webster} While it is difficult to measure a person's seriousness, it becomes obvious after spending significant amounts of time that someone is serious about something.
+  
+  `Specifications' are relevantly defined by Merriam-Webster as ``detailed precise presentation[s] of something or of a plan or proposal for something."\cite{webster} 
+  
+  In this context, the `software on which they work' is the Internet. `They' refers to the Software Engineer, which was previously identified as Chairman Pai. Since the software system that gives him this status is the Internet, that is clearly the software in question. However, it is not entirely relevant for Pai to understand all the inner workings of what makes the Internet function (e.g. TCP/IP). Rather, it makes more sense to apply this tenet to the policy that Pai is proposing to change. `Software' was previously defined as ``the programs and other operating information used by a computer."\cite{oxford} Since this policy affects how the Internet is \textit{operated}, it is -- though a stretch -- fair to say that this makes the policy qualifies as software for this tenet.
+  
+  \subsubsection{Domain Specific 3.02}
+  \tenetbox{
+  Devote serious effort or energy to fully understand the precise presentations of the Internet and its related policy.}
+  
+  The major question this raises is whether or not Chairman Pai has devoted enough effort to consider his understanding of his proposed policy to be considered a `serious effort.' Since there is no specific metric to determine whether `serious effort' was expended in Pai's understanding, a conclusion must be drawn from the information available.
+  
+  \subsubsection{Chairman Pai's Experience}
+  Ajit Pai has only served as Chairman of the FCC since January of 2017; however, he had also previously served as one of the FCC's five commissioners since being appointed by President Obama in 2012, has experience working with the US Department of Justice, and worked at the FCC as Deputy General Counsel, Associate General Counsel, and Special Advisor to the General Counsel from 2007-11.\cite{pai-fcc-page} This alone gives him four years of high-level experience at the FCC and many more years of relevant experience. Considering he suggested a ``deregulatory framework" for the Internet as early as 2012, it is fair to say that Chairman Pai has been formulating his stance on this issue for a long time.\cite{pai-early-statement}
+  
+Pai is obviously qualified for his role as Chairman -- especially pertinent to this is the fact that President Obama appointed him despite their opposing political parties.\cite{pai-fcc-page} It logically follows that he would carefully consider important issues such as this. Furthermore, he has made numerous speeches and interviews where he demonstrates competence on the subject of Net Neutrality and the types of classification.\cite{npr-pai-makes-case, pbs-pai-makes-case, pai-fcc-page}
+
+\subsubsection{Conclusion}
+It can thus be concluded that Chairman Pai is not be breaking SE Code tenet 3.02 by proposing this change of policy, since it can be demonstrated that he has the necessary credentials to make this proposal and that he has put in serious effort to understand the policies.
+
+  
+\subsection{SE Code 6.01}
+\subsubsection{Code Tenet}
+  \tenetbox{
+  ``\underline{Help develop} \underline{an organizational environment} \underline{favorable} to \underline{acting ethically}."\cite{SE-code}}
+  
+  \subsubsection{Definitions}
+  `Help develop' is a compound verb, and thus makes sense to define as two discrete words that come together for a meaning. `Help' can be defined as ``to further the advancement of," and `develop' means ``grow or cause to grow and become more mature, advanced, or elaborate."\cite{webster, oxford} These definitions can be combined to mean the action of furthering the growth, maturity, advancement, or elaborateness of something. Since this something is an abstract concept, terms like maturity do not apply well, so it makes sense to boil this down to just growth and advancement.
+  
+  `Organizational environment' likewise makes sense to define together, as `organizational' describes `environment.' `Organizational' is defined by the Oxford Dictionary as ``relating to the action of organizing something," where 'organizing' is ``mak[ing] arrangements or preparations for."\cite{oxford} An `environment' is ``the setting or conditions in which a particular activity is carried on;" the definition is said to ``usually [be used] with [a] modifier," so in this case `organizational' can be considered this modifier\cite{oxford} Therefore, an `organizational environment' is a setting in which arrangements or preparations are made for something.
+  
+  This something is `acting ethically.' `Acting,' in this context, is simply ``the process of doing something."\cite{webster} The idea of `ethical' is ``conforming to accepted standards of conduct," in this case, the SE Code of Ethics.\cite{webster} It makes sense to apply this code of ethics because the actor, Ajit Pai, has been shown to be a Software Engineer and thus under the jurisdiction of the SE Code. Adjusting the grammar, this means that `acting ethically' is the process of conforming to the Software Engineering Code of Ethics.
+  
+  \subsubsection{Domain Specific 6.01}
+    \tenetbox{
+  	Further the growth and advancement of the setting in which arrangements or preparations are made for conforming to the Software Engineering Code of Ethics.}
+	
+	In short, this means that Ajit Pai, as Chairman of the FCC, is obliged to encourage conditions that help people conform to the SE Code.
+	
+	The questions raised by this are to ask what sort of conditions help people conform to the SE Code and whether or not Chairman Pai has furthered the growth and advancement of these conditions.
+  
+  \subsubsection{What Conditions Help People Conform to the SE Code?}
+  Principles 7 and 8 of the SE Code regard Colleagues and Self, respectively. Each principle includes tenets regarding the perpetuation of the Code and encouragement to follow it. Some example tenets follow.
+  
+  \subsubsubsection{SE Code Tenet 	7.08}
+  \subsubsubsubsection{Code Tenet}
+  \tenetbox{``In situations outside of their own areas of \underline{competence}, call upon the opinions of other \underline{professionals} who have \underline{competence} in those areas."\cite{SE-code}}
+  
+  \subsubsubsubsection{Sub-Definitions}
+  `Competence' is defined as ``the quality or state of being competent," where `competent' by itself means ``having requisite or adequate ability or qualities."\cite{webster} Thus -- simplified -- competence is the state of having adequate qualities.
+  
+  `Professionals' are workers -- often self-employed -- who take on the liability of their (and often their employees') work and who are accredited, when applicable, to justify this liability.\cite{cpe-300}
+  
+  \subsubsubsubsection{Sub-Domain Specific 7.08}
+  \tenetbox{In situations outside of their own areas of adequate qualities, call upon the opinions of other accredited or otherwise liable workers who have adequate qualities in those areas.}
+  
+  Whether or not Chairman Pai has followed this rule can be answered by answering the following question: did Chairman Pai consult others with more adequate abilities regarding the policy change?
+  
+  \subsubsubsubsection{Did Chairman Pai Consult Others Regarding the Policy Change?}
+  Chairman Pai has made it clear that he believes reclassification of the Internet would result in economic benefits to businesses and to individual Internet users.\cite{pbs-pai-makes-case} However, Pai is not an economist and does not, in fact, have any credentials that would imply having adequate qualities in this field.\cite{pai-fcc-page}
+  
+  Economists have openly stated the doubtfulness and ambiguity of this affect on the aforementioned parties.\cite{ieee-article} It then appears that Pai has \textit{not}, in fact, consulted economists on this matter, or -- if he has -- he is either misunderstanding or misrepresenting their reports.
+  
+  \subsubsubsubsection{Sub-Conclusion}
+  It seems that Pai has \textit{not} consulted the opinions of other accredited or otherwise liable workers (i.e. economists) regarding this issue and has thus broke this code tenet.
+  
+  \subsubsubsection{SE Code Tenet 8.08}
+  \subsubsubsubsection{Code Tenet}
+  \tenetbox{``Not \underline{influence} others to \underline{undertake} any action that involves a \underline{breach} of this Code."\cite{SE-code}}
+  
+  \subsubsubsubsection{Sub-Definitions}
+  `Influence' is defined by Merriam-Webster as ``the act or power of producing an effect without apparent exertion of force or direct exercise of command." Simply, this is an act that indirectly affects something.
+  
+  `Undertake' is simply ``to take upon oneself."\cite{webster} This means that the actor is simply taking action.
+  
+  Lastly, a `breach' is an ``infraction or violation of a law, obligation, tie, or standard."\cite{webster} Since this hypothetical breach is explicitly regarding the SE Code, this can be simplified to merely an infraction.
+  
+  \subsubsubsubsection{Sub-Domain Specific 8.08}
+  \tenetbox{Not indirectly affect others to take any action that involves an infraction of the SE Code.}
+  
+  The question raised here is simply whether or not Chairman Pai has made the effect on others to break the code.
+  
+  \subsubsubsubsection{Has Chairman Pai Affected Others to Break the SE Code?}
+  As previously discussed, the change of policy in question unfairly favors some businesses over average users and thus gives a disadvantage to the American People. This was considered to break SE Code Principle 1 tenets for the public good.
+  
+  Since regulation works top-down, by pushing forward this change of policy, Chairman Pai is asking other members of the FCC and the US Government at large to enforce it. This enforcement would also break those code tenets for the public good.
+  
+  \subsubsubsubsection{Sub-Conclusion}
+  This means that Chairman Pai \textit{is}, in fact, affecting others to break the SE Code.
+  
+  \subsubsection{Has Chairman Pai Worked to Further the Growth and Advancement of these Conditions?}
+  Through the analysis of some of the code tenets involved in perpetuating the code, it has been shown that Chairman Pai has \textit{not} worked to advance conditions that allow others to conform to the SE Code. In fact, he is actively affecting others to make infractions of the code.
+  
+  \subsubsection{Conclusion}
+  By breaking code tenets regarding adherence to the SE Code, Chairman Pai has broken an additional code tenet by not encouraging conditions that help people conform to the SE Code.
+  
+  \subsection{Conclusion}
+  Through the analysis of these six code tenets, Chairman Pai's ethical stance is clear. He has broken five of the six tenets examined, and most seriously is working \textit{against} the public good by proposing and pushing the reclassification of the Internet as an information service.
+  
+  It is therefore this author's conclusion that Ajit Pai is acting \textit{unethically.}
+  
+  
+  %\subsection{SE Code 4.03}
+  %\tenetbox{
+  %``Maintain professional objectivity with respect to any software or related documents they are asked to evaluate."\cite{SE-code}}
+
+%\subsection{SE Code 4.06}
+  %\tenetbox{
+  %``Refuse to participate, as members or advisors, in a private, governmental, or professional body concerned with software-related issues in which they, their employers, or their clients have undisclosed potential conflicts of interest."\cite{SE-code}}
+
+%end the two column format
+\end{multicols}
+
+\newpage
+\nocite{*}
+\bibliographystyle{IEEEannot}
+
+\bibliography{paper}
+\end{document}

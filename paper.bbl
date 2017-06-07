@@ -1,0 +1,199 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{fortune-regulation}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{http://fortune.com/2017/02/28/donald-trump-fcc-chair-ajit-pai/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Fortune describes some of Chairman Pai's policies
+  and their implications. \end{quotation}
+
+\bibitem{google-stats}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{https://www.google.com/search?q=ieee&ie=utf-8&oe=utf-8#q=How+many+Americans+use+the+Internet?}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Search results for ``How many Americans use the
+  Internet?" \end{quotation}
+
+\bibitem{pai-nyt}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{https://www.nytimes.com/2017/02/05/technology/trumps-fcc-quickly-targets-net-neutrality-rules.html}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent New York Times article outlining some of Pai's
+  actions since becoming FCC Chairman. \end{quotation}
+
+\bibitem{pai-is-chairman}
+\BIBentryALTinterwordspacing
+ [Online]. Available:
+  \url{https://www.forbes.com/sites/haroldfurchtgottroth/2017/01/22/president-trump-designates-ajit-pai-as-chairman-of-fcc/#53ac58af1577}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Forbes article detailing Pai's confirmation as FCC
+  chairman. \end{quotation}
+
+\bibitem{pai-fcc-page}
+\BIBentryALTinterwordspacing
+Ajit pai | federal communications commission. [Online]. Available:
+  \url{https://www.fcc.gov/about/leadership/ajit-pai}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent The `About' page for Ajit Pai on the official FCC
+  website. \end{quotation}
+
+\bibitem{pbs-pai-makes-case}
+\BIBentryALTinterwordspacing
+Fcc chair ajit pai explains why he wants to scrap net neutrality. [Online].
+  Available:
+  \url{http://www.pbs.org/newshour/bb/fcc-chair-ajit-pai-explains-wants-scrap-net-neutrality/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Transcript of a PBS interview with Ajit Pai, where
+  he defends his stance on Net Neutrality and Internet regulations.
+  \end{quotation}
+
+\bibitem{webster}
+\BIBentryALTinterwordspacing
+``Merriam-webster dictionary.'' [Online]. Available:
+  \url{https://www.merriam-webster.com/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Merriam-Webster's online dictionary site. Est.
+  1828, Merriam-Webster is one of the most respected dictionaries of the
+  English language. \end{quotation}
+
+\bibitem{oxford}
+\BIBentryALTinterwordspacing
+``Oxford dictionaries.'' [Online]. Available:
+  \url{https://www.oxforddictionaries.com/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Oxford Dictionaries' website. First published in
+  1884, Oxford Dictionaries is a global dictionary service for many different
+  languages including English, Chinese, Arabic, French, and more.
+  \end{quotation}
+
+\bibitem{pai-early-statement}
+\BIBentryALTinterwordspacing
+Pai statement-formation of technology transitions policy task force | federal
+  communications commission. [Online]. Available:
+  \url{https://www.fcc.gov/document/pai-statement-formation-technology-transitions-policy-task-force}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent A statement from Ajit Pai from his early days as a
+  commissioner of the FCC, published on the FCC website. \end{quotation}
+
+\bibitem{SE-code}
+\BIBentryALTinterwordspacing
+``Software engineering code of ethics.'' [Online]. Available:
+  \url{http://www.acm.org/about/se-code}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Compiled by the ACM and IEE, this code creates the
+  ethical basis upon which this paper is written. \end{quotation}
+
+\bibitem{aclu}
+\BIBentryALTinterwordspacing
+What is net neutrality? [Online]. Available:
+  \url{https://www.aclu.org/feature/what-net-neutrality}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent The American Civil Liberties Union page describing
+  Net Neutrality, related policy, and the organizations stance regarding it.
+  \end{quotation}
+
+\bibitem{oliver2}
+\BIBentryALTinterwordspacing
+L.~de~Moraes. Fcc insists john oliver net neutrality call-to-action did not
+  crash comments section. [Online]. Available:
+  \url{http://deadline.com/2017/05/john-oliver-fcc-net-neutrality-comments-section-crash-ddos-1202087088/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Deadline article outlining the John Oliver's affect
+  on the FCC website and the FCC's response. \end{quotation}
+
+\bibitem{cnn-fcc}
+\BIBentryALTinterwordspacing
+D.~Goldman and J.~Pagliery. (2015, June) Net neutrality is here. what it means
+  for you. [Online]. Available:
+  \url{http://money.cnn.com/2015/06/12/technology/net-neutrality/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent CNN article summarizing changes to legislation, key
+  players, and affects on Internet users. \end{quotation}
+
+\bibitem{satisfaction}
+\BIBentryALTinterwordspacing
+A.~C.~S. Index. Benchmarks by industry. [Online]. Available:
+  \url{http://www.theacsi.org/customer-satisfaction-benchmarks/benchmarks-by-industry}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Data from the American Customer Satisfaction Index
+  of various industries, most notably Internet Service Providers
+  \end{quotation}
+
+\bibitem{internet-economics}
+L.~Jin and J.~C. Jin, ``Internet education and economic growth: Evidence from
+  cross-country regressions,'' \emph{MDPI Economics}, 2014.
+ \begin{quotation}\noindent A study on the effects of Internet education on
+  economic growth made in different countries around the world \end{quotation}
+
+\bibitem{eff-pro-net}
+\BIBentryALTinterwordspacing
+C.~McSherry. Dear fcc: We see through your plan to roll back real net
+  neutrality. [Online]. Available:
+  \url{https://www.eff.org/deeplinks/2017/05/dear-fcc-we-see-through-your-plan-roll-back-real-net-neutrality}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Electronic Frontier Foundation article that
+  criticizes the FCC's actions regarding Internet policy. \end{quotation}
+
+\bibitem{ieee-article}
+\BIBentryALTinterwordspacing
+A.~Nordrum. Is net neutrality good or bad for innovation? [Online]. Available:
+  \url{http://spectrum.ieee.org/tech-talk/telecom/internet/does-net-neutrality-help-or-harm-innovation}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent IEEE article analyzing pros and cons of different
+  regulatory policy for the Internet \end{quotation}
+
+\bibitem{oliver}
+\BIBentryALTinterwordspacing
+J.~J. Roberts. John oliver's net neutrality rant crashes fcc website. [Online].
+  Available: \url{http://fortune.com/2017/05/08/john-oliver-net-neutrality/}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Fortune article describing a segment on comedian
+  John Oliver's show Last Week Tonight, where he bashed the FCC and Chairman
+  Pai's Net Neutrality policy and directed viewers to make complaints on their
+  website. The site purportedly crashed, and the FCC then stopped accepting
+  comments through it. \end{quotation}
+
+\bibitem{npr-pai-makes-case}
+\BIBentryALTinterwordspacing
+A.~Selyukh and D.~Greene. Fcc chief makes case for tackling net neutrality
+  violations 'after the fact'. [Online]. Available:
+  \url{http://www.npr.org/sections/alltechconsidered/2017/05/05/526916610/fcc-chief-net-neutrality-rules-treating-internet-as-utility-stifle-growth}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent NPR piece covering highlights of an interview with
+  Chairman Pai regarding his stance on Net Neutrality \end{quotation}
+
+\bibitem{forbes-libertarian}
+\BIBentryALTinterwordspacing
+J.~Steimle. Am i the only techie against net neutrality? [Online]. Available:
+  \url{https://www.forbes.com/sites/joshsteimle/2014/05/14/am-i-the-only-techie-against-net-neutrality/#70d51c3870d5}
+\BIBentrySTDinterwordspacing
+ \begin{quotation}\noindent Forbes Contributor outlines his case against
+  government regulation of the Internet. \end{quotation}
+
+\bibitem{cpe300}
+D.~C. Turner, ``{C}{P}{E} 300 lectures.''
+ \begin{quotation}\noindent Lectures by Dr. Clark Turner for Cal Poly's
+  Professional Responsibilities class. \end{quotation}
+
+\end{thebibliography}
